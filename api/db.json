@@ -9,6 +9,28 @@
       "title": "title2",
       "description": "description2",
       "id": 2
+    },
+    {
+      "title": "Title",
+      "description": "description",
+      "id": 3
+    },
+    {
+      "title": "some new stream",
+      "description": "descriptions",
+      "id": 4
+    },
+    {
+      "title": "after auth",
+      "description": "this is something new",
+      "userId": "110296758294599451562",
+      "id": 5
+    },
+    {
+      "title": "without auth",
+      "description": "this is something new",
+      "userId": "110296758294599451562",
+      "id": 6
     }
   ]
 }
