@@ -12,16 +12,14 @@ import {
 
 export const signIn = (user_id) =>{
 	return {
-		type : "SIGN_IN",
-		// payload : '1111'
+		type : SIGN_IN,
 		payload : user_id
 	};
 };
 
 export const signOut = (user_id) =>{
 	return {
-		type : "SIGN_OUT",
-		// payload : '1111'
+		type : SIGN_OUT,
 		payload : user_id
 	};
 };
@@ -53,4 +51,5 @@ export const editStream = (id,formValues) => async dispatch =>{
 export const deleteStream = (id) => async dispatch => {
 	await streams.delete(`/streams/${id}`);
 	dispatch({type:DELETE_STREAM, payload:id});
+	history.push('/');
 }

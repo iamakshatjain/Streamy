@@ -21,12 +21,6 @@
       "id": 4
     },
     {
-      "title": "after auth",
-      "description": "this is something new",
-      "userId": "110296758294599451562",
-      "id": 5
-    },
-    {
       "title": "without authentication",
       "description": "this is something new to see",
       "userId": "110296758294599451562",
@@ -36,12 +30,6 @@
       "title": "This is after creating history",
       "description": "this must work fine as I suppose",
       "id": 7
-    },
-    {
-      "title": "This is refactoring",
-      "description": "reusability",
-      "userId": "110296758294599451562",
-      "id": 8
     }
   ]
 }
