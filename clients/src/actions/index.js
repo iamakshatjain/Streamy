@@ -13,6 +13,7 @@ import {
 export const signIn = (user_id) =>{
 	return {
 		type : "SIGN_IN",
+		// payload : '1111'
 		payload : user_id
 	};
 };
@@ -20,6 +21,7 @@ export const signIn = (user_id) =>{
 export const signOut = (user_id) =>{
 	return {
 		type : "SIGN_OUT",
+		// payload : '1111'
 		payload : user_id
 	};
 };
@@ -42,8 +44,10 @@ export const fetchStream = (id) => async dispatch => {
 }
 
 export const editStream = (id,formValues) => async dispatch =>{
-	const response = await streams.put(`/streams/${id}`,formValues);
+	const response = await streams.patch(`/streams/${id}`,formValues);
 	dispatch({type:EDIT_STREAM, payload:response.data});
+
+	history.push('/');
 }
 
 export const deleteStream = (id) => async dispatch => {
