@@ -1,35 +1,3 @@
 {
-  "streams": [
-    {
-      "title": "title",
-      "description": "description",
-      "id": 1
-    },
-    {
-      "title": "title2",
-      "description": "description2",
-      "id": 2
-    },
-    {
-      "title": "Title",
-      "description": "description",
-      "id": 3
-    },
-    {
-      "title": "some new stream",
-      "description": "descriptions",
-      "id": 4
-    },
-    {
-      "title": "without authentication",
-      "description": "this is something new to see",
-      "userId": "110296758294599451562",
-      "id": 6
-    },
-    {
-      "title": "This is after creating history",
-      "description": "this must work fine as I suppose",
-      "id": 7
-    }
-  ]
+  "streams": []
 }
